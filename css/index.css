@@ -6,3 +6,41 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
+.about-me [class*='title']{
+  font-size: 50px;
+}
+.about-me .title-2 span{
+  color: darkorange;
+}
+
+.home{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+}
+.home .half{
+  width: 50%;
+  padding: 0 3% 0 3%;
+}
+.my-img{
+  text-align: right;
+}
+.my-img img{
+  width: 75%;
+}
+.about-me a{
+  margin-top: 10px;
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 40px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(90deg, #ffd000, darkorange);
+}
+.about-me h4{
+  color: #b85300;
+  font-size: 25px;
+}

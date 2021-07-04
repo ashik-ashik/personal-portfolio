@@ -13,27 +13,28 @@
 .about-me .title-2 span{
   color: darkorange;
 }
-
-.home{
+section{
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 0px;
+}
+.home{
   background: url(../img/top-banner.png);
   background-repeat: no-repeat;
 }
-.home .half{
+ .half{
   width: 50%;
   padding: 0 3% 0 3%;
 }
-.my-img{
+.home .my-img{
   text-align: right;
 }
-.my-img img{
-  width: 75%;
+img{
+  width: 80%;
 }
 .about-me a{
-  margin-top: 10px;
+  margin-top: 15px;
   display: inline-block;
   border-radius: 4px;
   padding: 10px 40px;
@@ -46,4 +47,15 @@
   color: #b85300;
   font-size: 25px;
   margin-bottom: 10px;
+}
+.dream-big .my-img{
+  text-align: left;
+}
+.dream-big .about-me{
+  padding-right: 70px;
+}
+.dream-big{
+  background: url(../img/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }

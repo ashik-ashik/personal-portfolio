@@ -13,7 +13,7 @@
 .about-me .title-2 span{
   color: darkorange;
 }
-section{
+.flex{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -58,4 +58,49 @@ img{
   background: url(../img/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+
+.experiance{
+  background: url(../img/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+.experiance h1{
+  font-size: 60px;
+  margin-left: 15px;
+  color: #222;
+}
+.experiance-item{
+  width: 40%;
+  margin: 0 5%;
+  padding: 20px;
+  box-shadow: 10px 10px 40px #0000004f;
+  border-radius: 4px;
+}
+.experiance-item h2{
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.experiance-item h4{
+  font-size: 22px;
+  color: darkorange;
+}
+.experiance-item p{
+  margin-top: 15px;
+}
+#full-stack-dev{
+  border-left: 6px solid;
+  border-image: linear-gradient(#ff8800, #ffe600);
+  border-image-slice: 1;
+}
+#baby-dev{
+  border-left: 6px solid;
+  border-image: linear-gradient(#00f, #00eeff);
+  border-image-slice: 1;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background: honeydew;
 }

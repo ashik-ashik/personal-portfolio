@@ -17,7 +17,7 @@ section{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0px;
+  padding: 20px 0px 80px;
 }
 .home{
   background: url(../img/top-banner.png);
